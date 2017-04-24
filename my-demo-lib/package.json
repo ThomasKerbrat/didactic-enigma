@@ -1,0 +1,24 @@
+{
+  "name": "my-demo-lib",
+  "version": "1.0.0",
+  "description": "Angular library to demonstrate the DemoLibModule is not a NgModule error.",
+  "main": "index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "prebuild": "rimraf -r dist/*",
+    "build": "tsc --project tsconfig.json"
+  },
+  "keywords": [],
+  "author": "Thomas Kerbrat <kerbrat@outlook.com>",
+  "license": "ISC",
+  "devDependencies": {
+    "rimraf": "^2.6.1",
+    "typescript": "^2.2.2"
+  },
+  "peerDependencies": {
+    "@angular/core": "^4.0.3"
+  }
+}
