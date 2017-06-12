@@ -14,5 +14,10 @@
     },
     "include": [
         "./src/**/*.ts"
-    ]
+    ],
+    "angularCompilerOptions": {
+        "strictMetadataEmit": true,
+        "skipTemplateCodegen": true,
+        "annotateForClosureCompiler": true
+    }
 }
