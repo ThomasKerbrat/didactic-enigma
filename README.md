@@ -8,7 +8,7 @@ Steps to reproduce:
 4. `npm start`
 
 The following error should appear:
-(I'm most concerned with the `ERROR in DemoLibModule is not an NgModule` and not the resolution error)
+(I'm most concerned with the `ERROR in Error encountered resolving symbol values statically.` and not the resolution error)
 
 ```
 $ ng serve
